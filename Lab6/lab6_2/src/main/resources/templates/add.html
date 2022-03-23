@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8" />
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+           <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+          integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <br/><br/>
+        <form th:action="@{/measurements/add}" th:object="${m}" method="POST">
+            <table border="0">
+                <tr>
+                    <td>Year</td>
+                    <td>:</td>
+                    <td><input type="text" th:field="*{year}" /></td>              
+                </tr>
+                <tr>
+                    <td>Month</td>
+                    <td>:</td>
+                    <td><input type="text" th:field="*{month}" /></td>              
+                </tr>
+                <tr>
+                    <td>Result</td>
+                    <td>:</td>
+                    <td><input type="text" th:field="*{result}" /></td>              
+                </tr>
+                <tr>
+                    <td>Device</td>
+                    <td>:</td>
+                    <td><input type="text" th:field="*{device.id}" size="50" /></td>              
+                </tr>
+            </table>
+            <input type="submit" />
+        </form>
+ 
+        <br/>     
+    </body>
+</html>

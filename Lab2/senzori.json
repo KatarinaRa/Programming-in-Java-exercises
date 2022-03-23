@@ -1,0 +1,52 @@
+[
+  {"nazivPodatka" : "temperatura",
+    "tipPodatka" : "int16",
+    "faktor" : 10,
+    "raspon" : -1202,
+    "mjernaJedinica" : "C",
+    "desetMinuta" : 0,
+    "sat" : 0,
+    "dan" : 0,
+    "tjedan" : 0,
+    "mjesec" : 0,
+    "godina" : 0},
+  {
+    "nazivPodatka" : "tlak",
+    "tipPodatka" : "uint16",
+    "faktor" : 1000,
+    "raspon" : 18,
+    "mjernaJedinica" : "Bar",
+    "desetMinuta" : 0,
+    "sat" : 0,
+    "dan" : 0,
+    "tjedan" : 0,
+    "mjesec" : 0,
+    "godina" : 0
+  },
+  {
+    "nazivPodatka" : "potrosnja",
+    "tipPodatka" : "uint16",
+    "faktor" : 0,
+    "raspon" : 29853,
+    "mjernaJedinica" : "litra",
+    "desetMinuta" : 549390,
+    "sat" : 3296340,
+    "dan" : 79112160,
+    "tjedan" : 0,
+    "mjesec" : 0,
+    "godina" : 0
+  },
+  {
+    "nazivPodatka" : "vecaPotrosnja",
+    "tipPodatka" : "uint16",
+    "faktor" : 10,
+    "raspon" : 392,
+    "mjernaJedinica" : "m3",
+    "desetMinuta" : 0,
+    "sat" : 0,
+    "dan" : 0,
+    "tjedan" : 45138240,
+    "mjesec" : 180552960,
+    "godina" : -1941330496
+  }
+]

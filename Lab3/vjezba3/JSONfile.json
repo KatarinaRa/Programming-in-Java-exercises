@@ -1,0 +1,43 @@
+{
+"topic":"watermeter",
+"broker":"tcp://localhost:1883",
+"clientId":"JavaSample",
+"sensors":[ 
+	{
+		"name": "Water temperature",
+		"data_type": "int16",
+		"factor": 10,
+		"min":-3266.8,
+		"max":3266.8,
+		"value":0,
+		"unit": "Celsius"
+	},
+	{
+		"name": "Water pressure",
+		"data_type": "uint16",
+		"factor":1000,
+		"min":0,
+		"max":65.336,
+		"value":0,
+		"unit":"Bar"
+	},
+	{
+		"name": "Consumption 1min10min1h1d",
+		"data_type": "uint16",
+		"factor": 0,
+		"min":0,
+		"max": 65336,
+		"value": 0,
+		"unit": "liter"
+	},
+	{
+		"name": "Consumption 1w1m1y",
+		"data_type": "uint16",
+		"factor": 10,
+		"min":0,
+		"max": 6533.6,
+		"value": 0,
+		"unit": "m3"
+	}
+]
+}
